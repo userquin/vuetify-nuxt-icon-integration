@@ -47,6 +47,7 @@ export function nuxtIcon(css: boolean): IconSet {
   const component = css ? IconCSS : Icon
   return {
     component: (props) => {
+      // eslint-disable-next-line no-console
       console.log(props)
       const { icon, tag, ...rest } = props
       return h(tag, rest, [
