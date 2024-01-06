@@ -46,6 +46,7 @@ export const aliases = <IconAliases>{
 export function nuxtIcon(css: boolean): IconSet {
   const component = css ? IconCSS : Icon
   return {
+    // @ts-expect-error Parameter props implicitly has an any type.
     component: (props) => {
       // eslint-disable-next-line no-console
       console.log(props)
