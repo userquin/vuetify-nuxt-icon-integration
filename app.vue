@@ -6,7 +6,7 @@
       Icons
       <Icon name="mdi:store-24-hour" />
       <Icon name="mdi:alarm-off" />
-      from <code>unplugin-icons</code>
+      from <code>nuxt-icon</code>
     </p>
 
     <Icon name="mdi:calendar" />
